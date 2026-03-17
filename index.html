@@ -60,14 +60,11 @@ nav a:hover,nav a.active{color:#1e40af;background:#eff6ff}
 .hero{background:linear-gradient(135deg,#1e40af 0%,#059669 50%,#0ea5e9 100%);padding:80px 20px 60px;text-align:center;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;top:-50%;right:-30%;width:80%;height:200%;background:radial-gradient(circle,rgba(255,255,255,0.08) 0%,transparent 60%);pointer-events:none}
 .hero::after{content:'';position:absolute;bottom:-40%;left:-20%;width:60%;height:150%;background:radial-gradient(circle,rgba(255,255,255,0.06) 0%,transparent 50%);pointer-events:none}
-.hero-content{position:relative;z-index:1;max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:0}
-.hero-text{flex:1;text-align:left}
-.hero-image{flex:0 0 auto;text-align:center;margin-left:-30px;margin-right:-40px}
-.hero-image img{width:100%;max-width:700px;height:auto;border-radius:0;box-shadow:none;filter:drop-shadow(0 4px 16px rgba(0,0,0,0.15))}
+.hero-content{position:relative;z-index:1;max-width:800px;margin:0 auto}
 .hero .update-badge{display:inline-block;padding:6px 20px;margin-bottom:20px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:50px;font-size:0.85rem;font-weight:600;color:#fff}
 .hero h1{font-size:clamp(1.6rem,4.5vw,2.8rem);font-weight:900;color:#fff;line-height:1.35;margin-bottom:16px;letter-spacing:0.02em}
 .hero .subtitle{font-size:clamp(0.9rem,2vw,1.1rem);color:rgba(255,255,255,0.85);margin-bottom:32px;line-height:1.8}
-.hero-summary{max-width:600px;background:rgba(255,255,255,0.12);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.2);border-radius:16px;padding:24px 28px;text-align:left}
+.hero-summary{max-width:600px;margin:0 auto;background:rgba(255,255,255,0.12);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.2);border-radius:16px;padding:24px 28px;text-align:left}
 .hero-summary .summary-label{display:inline-block;background:#fff;color:#1e40af;font-weight:900;font-size:0.82rem;padding:3px 14px;border-radius:20px;margin-bottom:10px}
 .hero-summary p{color:rgba(255,255,255,0.95);font-size:0.95rem;line-height:1.8}
 .hero-summary strong{color:#fbbf24}
@@ -191,10 +188,6 @@ footer .copyright{color:#64748b;font-size:0.78rem;margin-top:20px}
   .card-body{padding:18px 20px 22px}
   .spec-row{grid-template-columns:repeat(2,1fr)}
   .hero{padding:70px 16px 50px}
-  .hero-content{flex-direction:column;text-align:center}
-  .hero-text{text-align:center}
-  .hero-image{flex:0 0 auto;order:-1}
-  .hero-image img{width:320px}
   .hero-summary{padding:20px}
   .step{flex-direction:column;gap:10px;align-items:center;text-align:center}
 }
@@ -219,17 +212,12 @@ footer .copyright{color:#64748b;font-size:0.78rem;margin-top:20px}
 <!-- Hero -->
 <section class="hero">
   <div class="hero-content">
-    <div class="hero-text">
-      <div class="update-badge">&#128197; 2026年3月17日 更新</div>
-      <h1>先払い買取おすすめ業者<br>徹底比較ランキング</h1>
-      <p class="subtitle">買取率・入金スピード・安全性を独自調査し<br>本当に信頼できる優良業者だけを厳選紹介</p>
-      <div class="hero-summary">
-        <span class="summary-label">&#128205; 結論</span>
-        <p>先払い買取でおすすめの業者は<strong>チケットセンター</strong>です。買取率最大95%、最短5分入金、LINE完結で手軽に利用可能。2位は<strong>タートルチケット</strong>、3位は<strong>リセチケット</strong>です。</p>
-      </div>
-    </div>
-    <div class="hero-image">
-      <img src="images/woman-cutout.png" alt="先払い買取比較ナビ - 安心のサポート" width="800" height="533" loading="eager">
+    <div class="update-badge">&#128197; 2026年3月17日 更新</div>
+    <h1>先払い買取おすすめ業者<br>徹底比較ランキング</h1>
+    <p class="subtitle">買取率・入金スピード・安全性を独自調査し<br>本当に信頼できる優良業者だけを厳選紹介</p>
+    <div class="hero-summary">
+      <span class="summary-label">&#128205; 結論</span>
+      <p>先払い買取でおすすめの業者は<strong>チケットセンター</strong>です。買取率最大95%、最短5分入金、LINE完結で手軽に利用可能。2位は<strong>タートルチケット</strong>、3位は<strong>リセチケット</strong>です。</p>
     </div>
   </div>
 </section>
